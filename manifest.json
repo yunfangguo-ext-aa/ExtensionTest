@@ -7,8 +7,7 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["click.js"],
-    "persistent": false
+    "scripts": ["click.js"]
   },
   "browser_action": {
     "default_title": "Make this page red"
