@@ -2,6 +2,6 @@
 
 
 chrome.browserAction.onClicked.addListener(function(tab) {
-	alert("turning red!");
+	alert("Merging Code...");
 	chrome.tabs.executeScript(null, {file: "/execute.js"});
 });
