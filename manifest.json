@@ -6,15 +6,9 @@
   "permissions": [
     "activeTab"
   ],
-  // "background": {
-  //   "scripts": ["click.js"]
-  // },
-  "content_scripts":[
-    {
-      "matches": ["http://github.com/*ExtensionTest/pull*"],
-      "js": ["click.js"]
-    }
-  ],
+  "background": {
+    "scripts": ["click.js"]
+  },
   "browser_action": {
     "default_title": "Make this page red"
   },
